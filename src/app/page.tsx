@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import React from 'react';
-import Image from 'next/image';
 import { Layout, Palette, Code2, ArrowUpRight, Mail } from 'lucide-react';
 
 interface ServiceCardProps {
@@ -181,7 +180,7 @@ export default function Portfolio() {
             <div className="relative group max-w-[30rem] w-full">
               <div className="absolute inset-0 bg-[#00cc99] rounded-3xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-500" />
               <div className="relative w-[20rem] h-[20rem] sm:w-[26rem] sm:h-[26rem] rounded-3xl bg-linear-to-br from-gray-800 to-gray-900 border border-gray-700/50 overflow-hidden shadow-2xl">
-                <Image src="/ola2.jpeg" alt="Olasunkanmi Fadayomi" fill className="object-cover" />
+                <img src="/ola2.jpeg" alt="Olasunkanmi Fadayomi" className="h-full w-full object-cover" />
               </div>
             </div>
           </div>
